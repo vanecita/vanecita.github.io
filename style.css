@@ -1,3 +1,19 @@
 h1 {
-  color:red;
+  font-size:24px;
+  color:#000000;
+}
+
+h2 {
+  font-sie:18px;
+  color:#0000000;
+}
+
+h3 {
+  font-size:16px;
+  color:#9E9FB7;
+}
+
+h4 {
+  font-size:14px;
+  color:#9E9FB7;
 }
