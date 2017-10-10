@@ -1,0 +1,114 @@
+body {
+  width: 1040px;
+  margin: 0 auto;
+  min-height: 1000px;
+}
+
+p {
+  marign: 0 auto;
+  padding: 0;
+}
+
+#home {
+  background: #F7F8FA;
+  position: relative;
+}
+
+.topnav {
+    background-color: #F7F8FA;
+    border-bottom: solid 2px #eeeeee;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.year {
+  font-size: 24px;
+  color: #000000;
+}
+
+.location {
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+}
+
+h3 {
+  font-size:16px;
+  color: #000000;
+}
+
+.date {
+  font-size:14px;
+  color: #9E9FB7;
+  text-align: center;
+  position: relative;
+  top: -4px;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 320px;
+    height: 300px;
+    background: #ffffff;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 0px;
+}
+
+.img {
+    border-radius: 3px;
+}
+
+.link_wrap {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+.album{
+  margin: 0;
+  padding: 0;
+}
+
+.album_number {
+  font-size:14px;
+  color: #9E9FB7;
+  margin-left: 6px;
+}
+
+.title {
+  padding-left: 10px;
+  margin: 40px 0 20px 0;
+}
