@@ -2,73 +2,136 @@
 <html>
 
 <head>
-  <title>Wonderful My Life</title>
+  <title>Travel Diary</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Travel Diary">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Hannah Sung">
+
   <link href="style.css" type="text/css" rel="stylesheet">
-  <script src="https://use.typekit.net/vzl1eyn.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <link href="https://fonts.googleapis.com/css?family=Cabin:400,700|Montserrat:400,700" rel="stylesheet">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  <script src="jquery.js"></script>
+      <script>
+      $(function(){
+        $("#header").load("header.html");
+      });
+      </script>
 </head>
 
 <body id="home">
 
-  <div class="topnav" id="myTopnav">
-    <a class="logo" href="">
-      Logo
-    </a>
-  </div>
-
-  <div class="list">
-    <div class="year">
-      <p class="title">2017<span class="album_number">5 albums</span></p>
+    <div id="header">
+      <div class="topnav" id="myTopnav">
+        <div class="nav_left">
+          <a class="logo" href="index.html">
+            <img src="img/logo.png" alt="logo" style="fixed" class="logo_img">
+            <span class="logo_text">Travel Diary</span>
+          </a>
+        </div>
+      </div>
     </div>
 
-    <div class="album">
+  <div class="style fade-in">
 
-      <div class="card">
-        <a class="link_wrap" href=""></a>
-        <img src="img/2017_nagasaki.jpg" alt="2017_nagasaki" style="width:100%">
-        <div class="container">
-          <p class="Location">Nagasaki, Japan</p>
-          <p class="date">2017.03.25-28</p>
-        </div>
+    <div class="list">
+      <div class="title">
+        <span class="year">2017</span><span class="album_number">3 albums</span>
       </div>
 
-      <div class="card">
-        <a class="link_wrap" href=""></a>
-        <img src="img/2017_nagasaki.jpg" alt="2017_nagasaki" style="width:100%">
-        <div class="container">
-          <p class="Location">Nagasaki, Japan</p>
-          <p class="date">2017.03.25-28</p>
+      <div class="album">
+
+        <div class="card">
+          <a class="link_wrap" href="detail_2017_nagasaki.html">
+            <img src="img/2017_nagasaki.jpg" alt="2017_nagasaki" style="width:100%">
+            <div class="container">
+              <p class="location">🇰🇷 Nagasaki, Japan</p>
+              <p class="date">2017.09.02~05.</p>
+            </div>
+          </a>
         </div>
+
+        <div class="card">
+          <a class="link_wrap" href="detail_2017_nagasaki.html">
+            <img src="img/2017_fukuoka.jpg" alt="2017_fukuoka" style="width:100%">
+            <div class="container">
+              <p class="location">Fukuoka, Japan</p>
+              <p class="date">2017.03.25~28.</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="card">
+          <a class="link_wrap" href="detail_2017_nagasaki.html">
+            <img src="img/2017_jeju.jpg" alt="2017_jeju" style="width:100%">
+            <div class="container">
+              <p class="location">Jeju Island, South Korea</p>
+              <p class="date">2017.01.20~22.</p>
+            </div>
+          </a>
+        </div>
+
       </div>
 
-      <div class="card">
-        <a class="link_wrap" href=""></a>
-        <img src="img/2017_nagasaki.jpg" alt="2017_nagasaki" style="width:100%">
-        <div class="container">
-          <p class="Location">Nagasaki, Japan</p>
-          <p class="date">2017.03.25-28</p>
+      <div class="list">
+        <div class="title">
+          <span class="year">2016</span><span class="album_number">5 albums</span>
         </div>
-      </div>
-      <div class="card">
-        <a class="link_wrap" href=""></a>
-        <img src="img/2017_nagasaki.jpg" alt="2017_nagasaki" style="width:100%">
-        <div class="container">
-          <p class="Location">Nagasaki, Japan</p>
-          <p class="date">2017.03.25-28</p>
-        </div>
-      </div>
-      <div class="card">
-        <a class="link_wrap" href=""></a>
-        <img src="img/2017_nagasaki.jpg" alt="2017_nagasaki" style="width:100%">
-        <div class="container">
-          <p class="Location">Nagasaki, Japan</p>
-          <p class="date">2017.03.25-28</p>
-        </div>
-      </div>
 
+        <div class="album">
+
+          <div class="card">
+            <a class="link_wrap" href="detail_2017_nagasaki.html">
+              <img src="img/2017_hongkong.jpg" alt="2017_hongkong" style="width:100%">
+              <div class="container">
+                <p class="location">HongKong, China</p>
+                <p class="date">2016.12.28~31</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="card">
+            <a class="link_wrap" href="detail_2017_nagasaki.html">
+              <img src="img/2017_macau.jpg" alt="2017_macau" style="width:100%">
+              <div class="container">
+                <p class="location">Macau, China</p>
+                <p class="date">2016.12.28~31</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="card">
+            <a class="link_wrap" href="detail_2017_nagasaki.html">
+              <img src="img/2016_bangkok.jpg" alt="2016_bangkok" style="width:100%">
+              <div class="container">
+                <p class="location">Bangkok, Thailand</p>
+                <p class="date">2017.03.25-28</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="card">
+            <a class="link_wrap" href="detail_2017_nagasaki.html">
+              <img src="img/2016_kohsamui.jpg" alt="2016_kohsamui" style="width:100%">
+              <div class="container">
+                <p class="location">Koh Samui, Thailand</p>
+                <p class="date">2017.03.25-28</p>
+              </div>
+            </a>
+          </div>
+
+        </div>
+    </div>
   </div>
-</div>
+
+  <script>
+      $("#header").load("header.html");
+  </script>
 
 </body>
+
+<footer id="footer">
+  <p>© 2017 HANNAH SUNG ALL RIGHTS RESERVED</p>
+</footer>
 
 </html>
