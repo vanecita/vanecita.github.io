@@ -1,4 +1,10 @@
-body {
+#home {
+  background: #F7F8FA;
+  position: relative;
+  font-size: 1em;
+}
+    
+    body {
   margin: 0 auto;
   min-height: 1400px;
   font-family: sans-serif;
@@ -23,7 +29,7 @@ body {
 
 .logo_text {
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 1.15em;
   color: #000;
   margin-left: 28px;
 }
@@ -33,11 +39,6 @@ p {
   marign: 0 auto;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
-}
-
-#home {
-  background: #F7F8FA;
-  position: relative;
 }
 
 .topnav {
@@ -57,7 +58,7 @@ p {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 0.9em;
 }
 
 .topnav a:hover {
@@ -71,13 +72,13 @@ p {
   }
 
 .title {
-  font-size: 24px;
+  font-size: 1.8em;
   color: #000000;
   padding: 30px 0 20px 0;
 }
 
 .location{
-  font-size: 18px;
+  font-size: 1.3em;
   color: #000000;
   text-align: center;
   margin-bottom: 6px;
@@ -85,12 +86,12 @@ p {
 }
 
 h3 {
-  font-size:16px;
+  font-size:1.15em;
   color: #000000;
 }
 
 .date {
-  font-size:14px;
+  font-size: 1em;
   color: #9E9FB7;
   text-align: center;
   margin: 0;
@@ -159,7 +160,7 @@ h3 {
 }
 
 .album_number {
-  font-size:14px;
+  font-size: 1em;
   color: #9E9FB7;
   margin-left: 10px;
   font-family: 'Montserrat', sans-serif;
@@ -182,7 +183,7 @@ h2 {
 
 .metadata {
   color: #9E9FB7;
-  font-size: 13px;
+  font-size: 0.9em;
   padding-top: 10px;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -190,7 +191,7 @@ h2 {
 
 .description {
   color: #333333;
-  font-size: 14px;
+  font-size: 1em;
   line-height: 2em;
 }
 
@@ -208,7 +209,7 @@ h2 {
 
 .note p {
   color: #333333;
-  font-size: 14px;
+  font-size: 1em;
   line-height: 2.4em;
   width: 100%;
   max-width: 100%;
@@ -227,7 +228,7 @@ h2 {
   margin: 0 auto;
   padding: 80px 0 50px 0;
   color: #c7c8d2;
-  font-size: 11px;
+  font-size: 0.8em;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
@@ -280,7 +281,7 @@ h2 {
   position: absolute;
   top: 10px;
   right: 25px;
-  font-size: 35px;
+  font-size: 2.2em;
   font-weight: normal;
 }
 
@@ -310,7 +311,7 @@ h2 {
   margin-top: -50px;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.6em;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -348,7 +349,7 @@ h2 {
 }
 
 #caption {
-  font-size: 14px;
+  font-size: 1em;
   font-weight: normal;
   color: #fff;
   text-align: center;
