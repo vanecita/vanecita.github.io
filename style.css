@@ -20,7 +20,6 @@ body {
 
 
 .detail_photo{
-  width: 90%;
   margin: 0 auto;
 }
 
@@ -127,12 +126,12 @@ h3 {
 }
 
 #photo_list {
-  width: 500px;
-  height: 320px;
+  width: 48.6%;
+  height: auto;
   background: #ffffff;
   display: inline-block;
   border-radius: 3px;
-  margin: 8px;
+  margin: 0.6%;
   margin-top: 50px;
   cursor: pointer;
   transition: 0.3s;
@@ -200,6 +199,13 @@ h2 {
 }
 
 /*DETAIL*/
+
+.row {
+    padding: 0 2%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
 
 .detail_title {
   padding-top: 30px;
