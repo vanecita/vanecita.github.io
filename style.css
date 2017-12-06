@@ -459,8 +459,8 @@ img.hover-shadow {
         margin: 0;
     } 
     #photo_list{
-        width: 90%;
-        margin: 2%;
+        width: 100%;
+        margin: 0 auto;
         min-height: 360px;
     }
     .detail_title {
@@ -477,5 +477,8 @@ img.hover-shadow {
     .next {
         top: 60%;
     } 
+    .row {
+        padding: 0 5%;
+    }
     
 }
