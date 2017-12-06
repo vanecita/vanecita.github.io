@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  min-height: 1400px;
+  min-height: 800px;
   font-family: sans-serif;
 }
 
@@ -15,7 +15,7 @@ body {
 .list {
     width: 100%;
     max-width: 1040px;
-    margin: 0 auto;
+    margin: 1% auto;
 }
 
 
@@ -104,12 +104,14 @@ h3 {
 .card {
     box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 31%;
+    width: 30.5%;
     height: auto;
     background: #ffffff;
     margin: 1%;
     display: inline-block;
     border-radius: 3px;
+    min-height: 230px;
+    vertical-align: top;
 }
 
 .card:hover {
@@ -126,16 +128,16 @@ h3 {
 }
 
 #photo_list {
-  width: 48.6%;
+  width: 48%;
   height: auto;
-  background: #ffffff;
   display: inline-block;
   border-radius: 3px;
-  margin: 0.6%;
+  margin: 0.5%;
   margin-top: 50px;
   cursor: pointer;
   transition: 0.3s;
-  max-height: 320px;
+  min-height: 320px;
+  vertical-align: top;
 
 }
 
@@ -182,6 +184,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 10px;
   font-weight: normal;
+  font-size: 2em;
 }
 
 .metadata {
@@ -213,8 +216,8 @@ h2 {
 
 .note {
   top: 20px; right: 0; bottom: 40px; left: 60px;
-  background: linear-gradient(transparent, transparent 33px, #DEE2EF 33px);
-  background-size: 35px 35px;
+  background: linear-gradient(transparent, transparent 2.2em, #DEE2EF 2.2em);
+  background-size: 2.4em 2.4em;
   padding-top: 10px;
 }
 
@@ -236,7 +239,7 @@ h2 {
 }
 
 #footer {
-  width: 1040px;
+  width: 100%
   margin: 0 auto;
   padding: 80px 0 50px 0;
   color: #c7c8d2;
@@ -366,7 +369,7 @@ h2 {
   font-weight: normal;
   color: #fff;
   text-align: center;
-  line-height: 1.3em;
+  line-height: 1.5em;
 }
 
 img.demo {
@@ -439,4 +442,40 @@ img.hover-shadow {
   100% {
     opacity:1;
   }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .card {
+        width: 90%;
+        margin: 2% 5%;
+        }
+    .album {
+        margin:0 auto;
+    }
+    .title {
+        margin: 0 5%;
+    }
+    .year {
+        margin: 0;
+    } 
+    #photo_list{
+        width: 90%;
+        margin: 2%;
+        min-height: 360px;
+    }
+    .detail_title {
+        padding-bottom: 30px;
+    }
+    .modal-content {
+      position: relative;
+      margin: 0 auto;
+      padding: 0;
+      width: 80%;
+      max-width: 400px;
+    }
+    .prev,
+    .next {
+        top: 60%;
+    } 
+    
 }
